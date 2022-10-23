@@ -1,0 +1,483 @@
+body{
+   font-family: Tohoma;
+   font-size: 13px;
+   width: 1350px;
+   margin: 0px auto;  
+   background-color: rgb(23, 15,34);
+}
+#menutop{
+    background-color: blueviolet;
+    /*background-color: rgb(109, 190, 228);*/
+    height: 50px;
+}
+#banner{
+    height: auto;
+    width: 1350px;
+    
+    
+}
+h1{
+    color: blue;
+    margin-left: 30px;
+}
+#main #left{
+    width: 900px;
+    float:left;
+    min-height: 400px;
+    
+    
+}
+#main #right{
+    width: 450px;
+    min-height: auto;
+    float:left;
+    margin-top: -25px;
+    
+    
+    
+    
+}
+#footer{
+    background-color: rgb(33, 12, 61);
+    
+    width: 100%;
+    text-align: center;
+    height: 60px;
+   
+    clear: left;
+    line-height: 60px;   
+    list-style: none;
+    text-decoration: none;
+}
+#footer ul li{
+    list-style: none;
+    float:left;
+
+    
+}
+
+
+#footer ul li a{
+    
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    padding: 0px 50px 0px 50px;
+    margin: 10px 60px 0px 10px;
+    font-size: medium;
+}
+.ft1{
+    text-align: center;
+}
+
+
+#menutop ul{
+    margin: 0px;
+    padding:0px ;
+    font-size: 15px;
+    
+}
+#menutop ul li{
+    list-style: none;
+    float:left;
+}
+#menutop ul li:hover{
+   background: blue;
+}
+#menutop ul li > .sub-menu{
+    display:none ;
+    position: absolute;
+    
+    
+}
+
+#menutop ul li:hover > .sub-menu{
+    display: block;
+    background-color: rgb(153, 58, 132);
+    border-right: none;
+    
+}
+#menutop ul li a:hover > .sub-menu{
+    
+    background-color: red;
+    
+    
+}
+
+.sub-menu li {
+    background-color: rgb(153, 58, 132);
+    clear: left;
+    width:160px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc; 
+    display: block; 
+}
+
+
+.sub-menu li a{
+    font-size: 13px;
+    margin-top: -10px;
+    
+   
+
+}
+
+
+
+
+#menutop ul li a{
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    padding: 0px 50px 0px 50px;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+#menutop ul li a.active{
+    background: rgb(88, 10, 99);
+
+}
+#csns{
+    margin-left: 920px;
+    margin-top: -50px;
+    
+   
+    
+}
+
+
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+    float:left;
+    margin-left: 30px;
+    
+}
+#main #left ul li{
+    list-style: none;
+    clear:left;
+    border-bottom: 2px solid #ccc;
+    float:left;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+#main #left ul li img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#main #left ul li a{
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+#main #left ul li h2{
+    font-size: 20px;
+    margin-top: 0px;
+    color: #FFF;
+
+}
+#main #left ul li p{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+
+}
+#main{
+    margin-top: 10px;
+}
+#menutop ul  input{
+       padding:5px;
+       margin: 10px;
+       width: 100px;
+       
+      
+}
+#main #right  img{
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+   
+}
+
+
+
+.chenchu{
+    color: #fff;
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 200px;
+    
+    
+}
+.kobasolo{
+    color: #fff;
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 110px;
+}
+.hoaminzy{
+    color: #fff;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 110px;
+}
+.baga{
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+.baga1{
+    color:#FFF;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 110px;
+}
+.jiyeon{
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+.jiyeon1{
+    color:#FFF;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 110px;
+}
+.tara{
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+.ara{
+    color:#FFF;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 110px;
+}
+
+.slide{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.chuyen-slide{
+    width: 9999px;
+    transition: all 0.5s;
+}
+.slide img{
+    width: 1000px;
+    height: 400px;
+    float:left;
+    z-index: -1;
+    
+}
+.dieuhuong{
+   position: absolute;
+   color: white;
+   font-size: 40px;
+   top:48%;
+   padding-left: 20px;
+}
+.dieuhuong i:last-child{
+    position: relative;
+    left:870px;
+}
+pre{
+    color: #FFF;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+#main #bot{
+    width: 100%;
+    float:left;
+    min-height: 170px;
+    background-color: rgb(23, 15,34);
+   
+    
+}
+#main #bot a img{
+    border-radius: 10px;
+    
+    
+
+}
+#main #bot #duoichot a img{
+    border-radius: 80px;
+}
+
+    
+#main #bot a{
+   
+    
+    float:left;
+    margin: 10px 20px 10px 70px;
+    margin-right: 5px;
+    
+    padding-left: -10px;
+    text-decoration: none
+    
+   
+
+}
+#main #bot2 #left1{
+    width: 700px;
+    float:left;
+    min-height: 400px;
+    
+}
+#main #bot2 #right1{
+    width: 650px;
+    float:left;
+    min-height: 400px;
+    
+    
+}
+#main #bot2 #left1 ul{
+    margin: 0px;
+    padding: 0px;
+    float:left;
+    margin-left: 20px;
+    
+}
+#main #bot2 #left1 ul li{
+    list-style: none;
+    clear:left;
+    border-bottom: 2px solid #ccc;
+    float:left;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+#main #bot2 #left1 ul li img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#main #bot2 #left1 ul li a{
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+#main #bot2 #left1 ul li h2{
+    font-size: 20px;
+    margin-top: 0px;
+    color: #FFF;
+    margin-bottom: -10px;
+
+}
+#main #bot2 #left1 ul li p{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+}
+#main #bot2 #right1 ul{
+    margin: 0px;
+    padding: 0px;
+    float:left;
+    margin-left: 30px;
+    
+}
+#main #bot2 #right1 ul li{
+    list-style: none;
+    clear:left;
+    border-bottom: 2px solid #ccc;
+    float:left;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+#main #bot2 #right1 ul li img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#main #bot2 #right1 ul li a{
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+#main #bot2 #right1 ul li h2{
+    font-size: 20px;
+    margin-top: 0px;
+    color: #FFF;
+    margin-bottom: -10px;
+
+}
+#main #bot2 #right1 ul li p{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+}
+#main #zingchat{
+    width: 100%;
+    float:left;
+    min-height: 100px;
+    background-color: rgb(23, 15,34);
+}
+#main #zingchat img{   
+    float:left;
+    margin: 10px 20px 10px 100px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: -10px;
+}
+#main #zingchat img:hover {
+    
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2); 
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        cursor: pointer; 
+}
+#main #doitac{
+    width: 100%;
+    float:left;
+    min-height: 100px;
+    background-color: rgb(23, 15,34);
+}
+#main #doitac img{   
+    float:left;
+    margin: 10px 20px 10px 100px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: -10px;
+}
+#main #bot img:hover {
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2); 
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        cursor: pointer; 
+    
+}
+
+
+
+    
+    
+
+
+
+    
